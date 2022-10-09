@@ -16,8 +16,61 @@
 
 
 /*--------HEADER-----------------------------*/
+/*
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+*/
 
+/* Estilos pegado de loa anterior verificar*/ 
 
+/* Presentación */
+.titulo {    
+    position:absolute;
+    top:60px;
+    z-index: 10;
+    margin:0 auto;
+    text-align: center;
+    
+}
+.titulo h1 {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 8rem;
+    color:orange;
+    text-shadow: yellow 5px 5px;
+}
+/*
+.titulo h3 {
+    font-size: 2rem;
+    color:black;
+    text-shadow: yellow 2px 5px;
+}*/
+
+/* Carousel - Estilos*/
+.imagen-car {
+    height: 90vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+/* Estilos Lemas comentarios*/
+.lema-titulo {
+    color:black;
+    background:white;
+    max-width: max-content;
+    padding:10px 25px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    border:yellow solid 1px;
+}
+.lema-comentario {
+    color:black;
+    background:white;
+    max-width: max-content;
+    padding:10px 15px;
+    border-radius: 10px;
+    border:yellow solid 1px;
+}
 
 /*-------------------------------------------*/
 
