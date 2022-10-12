@@ -72,6 +72,21 @@
     border:yellow solid 1px;
 }
 
+@media only screen and (max-width: 680px) {
+    .titulo h1 {
+        font-size: 6rem;
+        text-shadow: yellow 4px 4px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .titulo h1 {
+        font-size: 4rem;
+        text-shadow: yellow 3px 3px;
+    }
+}
+
+
 /*-------------------------------------------*/
 
 
