@@ -22,54 +22,63 @@
 <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
 */
 
-/* Estilos pegado de loa anterior verificar*/ 
 
-/* Presentación */
+
+/*----Presentación E-Commerce----*/
+
 .titulo {    
-    position:absolute;
-    top:60px;
-    z-index: 10;
-    margin:0 auto;
-    text-align: center;
-    
+  position:absolute;
+  top:60px;
+  z-index: 10;
+  margin:0 auto;
+  text-align: center;    
 }
 .titulo h1 {
-    font-family: 'Comforter Brush', cursive;
-    font-size: 8rem;
-    color:orange;
-    text-shadow: yellow 5px 5px;
+  margin:0 auto;
+  padding:0 auto;
+  font-family: 'Comforter Brush', cursive;
+  font-size: 8rem;
+  color:orange;
+  text-shadow: yellow 5px 5px;
+  text-align: center;
 }
-/*
-.titulo h3 {
-    font-size: 2rem;
-    color:black;
-    text-shadow: yellow 2px 5px;
-}*/
 
-/* Carousel - Estilos*/
+
+/*----Estilos Carrousel----*/
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-position: center cover;
+}
+
 .imagen-car {
-    height: 90vh;
-    background: no-repeat center center scroll;
-    background-size: cover;
+  max-height: 80vh;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  background-position: center cover;
 }
 
-/* Estilos Lemas comentarios*/
+/*----Estilos Lemas comentarios----*/
+
 .lema-titulo {
-    color:black;
-    background:white;
-    max-width: max-content;
-    padding:10px 25px;
-    margin-bottom:10px;
-    border-radius: 10px;
-    border:yellow solid 1px;
+  color:black;
+  background:white;
+  opacity:0.6;
+  max-width: max-content;
+  padding:10px 25px;
+  margin-bottom:10px;
+  border-radius: 10px;
+  border:yellow solid 2px;
 }
 .lema-comentario {
-    color:black;
-    background:white;
-    max-width: max-content;
-    padding:10px 15px;
-    border-radius: 10px;
-    border:yellow solid 1px;
+  color:black;
+  background:white;
+  opacity:0.6;
+  max-width: max-content;
+  padding:10px 15px;
+  border-radius: 10px;
+  border:yellow solid 2px;
 }
 
 @media only screen and (max-width: 680px) {
@@ -84,6 +93,16 @@
         font-size: 4rem;
         text-shadow: yellow 3px 3px;
     }
+}
+
+@media only screen and (max-width: 400px) {
+  .titulo h1 {
+      font-size: 3rem;
+      text-shadow: yellow 3px 3px;
+  }
+  .titulo {
+    top:30px;      
+  }
 }
 
 
