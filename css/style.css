@@ -55,7 +55,9 @@ body {
 }
 
 /*----Estilos Lemas comentarios----*/
-
+.caption {
+  text-align:center
+}
 .lema-titulo {
   color:black;
   background:white;
