@@ -12,7 +12,8 @@
     
     <!-- CSS Bootstrap -->
 
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -85,38 +86,40 @@
     <!-------------------------------------------------------->
 
     <!----------------Header---------------------------------->
-    <header id="home" class="container-fluid banner">
+
+    <header id="home" class="container-fluid banner mb-4">
+
         <div class="container">
             <div class="container titulo">
                 <h1>E-Commerce</h1>            
             </div>
         </div>
+        <div id="carrousel-resize">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
+          <div class="carousel-inner" style="height: 60vh; width: 93%;">
             <div class="carousel-item active">
-              <img src="/img/librosvarios2.jpg" class="imagen-car d-block w-100" alt="Imagen de libros">
+              <img src="./img/librosvarios2.jpg" class="d-block" alt="Imagen de libros">
               <div class="carousel-caption d-none d-md-block">
                   <h5 class="lema-titulo">Encontra tu libro preferido</h5>
                   <p class="lema-comentario">La lectura es un buen hábito, desde "E-Commerce" descontamos el 5% por cada compra de libros.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/img/nueces2.jpg" class="imagen-car d-block w-100" alt="Imagen de alimentos saludables">
+              <img src="./img/nueces2.jpg" class="d-block" alt="Imagen de alimentos saludables">
               <div class="carousel-caption d-none d-md-block">
                   <h5 class="lema-titulo">Rico y sano</h5>
                   <p class="lema-comentario">Explora nuestra tienda de alimentos saludables</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/img/compu2.jpg" class="imagen-car d-block w-100" alt="Imagen de computadora">
+              <img src="./img/compu2.jpg" class="d-block" alt="Imagen de computadora">
               <div class="carousel-caption d-none d-md-block">
                   <h5 class="lema-titulo">¿Quieres aprender a programar?</h5>
                   <p class="lema-comentario">Te recomendamos las mejores opciones de computadoras para hacerlo</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="/img/ceramica.jpg" class="imagen-car d-block w-100" alt="Imagen de artesanias">
-              <div class="carousel-caption d-none d-md-block">
+              <img src="./img/ceramica.jpg" class="d-block" alt="Imagen de artesanias"><div class="carousel-caption d-none d-md-block">
                   <h5 class="lema-titulo">Arte</h5>
                   <p class="lema-comentario">Busca artesanias para decorar tu hogar</p>
               </div>
@@ -130,18 +133,19 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-        </div>              
+        </div>   
+        </div>           
     </header>
     <!-------------------------------------------------------->
 
     <!-----MAIN----->
     <main>
       <!-------------SECCION MEDIOS DE PAGO----------------->
-      <section id="medios-de-pago" class="row justify-content-md-center">
-        <div class="col-md-10">
+      <section id="medios-de-pago" class="row justify-content-md-center mb-4">
+        <div class="col-md-11">
           <h4>Medios de pago</h4>
           <div
-            class="card d-flex flex-row align-content-around justify-content-around"
+            class="card d-flex flex-row flex-wrap align-content-around justify-content-around"
           >
             <div class="d-flex flex-row flex-nowrap">
               <i
@@ -198,26 +202,172 @@
 
 
       <!----------SECCION CATEGORIAS------------------------>
-      <section id="categorias"> 
-      </section>
-      <!----------------------------------------------------> 
 
-      <!-------------SECCION OFERTAS---------------------->
-      <section id="ofertas"></section>
+      <section id="categorias">
+              <section id="novedades" class="col-md-11 mb-5">
+        <h4>Categorias</h4>
+        <br>
+        <div class="card-group d-flex row justify-content-md-around container-fluid ">
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <div class="card-header w-100 h-100 d-block" style="background-color: #FF6F6F; height:5rem!important"></div>
+              <div class="card-body">
+                <h6 class="card-title">Tecnología</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit vehicula nulla parturient ...
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-success">Ver más</span></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <div class="card-header w-100 h-100 d-block" style="background-color: #46DA67; height:5rem!important"></div>
+              <div class="card-body">
+                <h6 class="card-title">Hogar</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit vehicula nulla parturient ...
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-success">Ver más</span></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <div class="card-header w-100 h-100 d-block" style="background-color: #E0E97A; height:5rem!important"></div>
+              <div class="card-body">
+                <h6 class="card-title">Oficina</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit vehicula nulla parturient ...
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-success">Ver más</span></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <div class="card-header w-100 h-100 d-block" style="background-color: #8F70E9; height:5rem!important"></div>
+              <div class="card-body">
+                <h6 class="card-title">Deportes</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit vehicula nulla parturient ...
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-success">Ver más</span></small></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <div class="card-header w-100 h-100 d-block" style="background-color: #4BA1EE; height:5rem!important"></div>
+              <div class="card-body">
+                <h6 class="card-title">Alimentos</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipiscing, elit vehicula nulla parturient ...
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-success">Ver más</span></small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+      </section>
       <!---------------------------------------------------->
 
-       
+
       <!-------------SECCION NOVEDADES---------------------->
-      <section id="novedades">
+      <section id="novedades" class="col-md-11 mb-5">
+        <h4>Novedades</h4>
         <br>
-        <h2>Novedades y ofertas</h2>
-        <br>
-        <div class="card-group d-flex justify-content-md-around">
+        <div class="card-group d-flex row justify-content-md-around container-fluid ">
           <div class="col-lg-2">
             <div class="card h-100">
               <img src="./img/motorola.jpg" class="card-img-top w-75 h-50" alt="Motorola E40">
               <div class="card-body">
-                <h5 class="card-title">CELULAR MOTOROLA E40 ROSADO</h5>
+                <h6 class="card-title">CELULAR MOTOROLA E40 ROSADO</h6>
+                <p class="card-text">
+                  Precio online: $38.000
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-success">Comprar ahora</button>
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-danger">Categoria</span></small></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <img src="./img/Billy-Summers-Final.jpg" class="card-img-top h-50" alt="Stephen Kimg, Billy Summers">
+              <div class="card-body">
+                <h6 class="card-title">BILLY SUMMERS, STEPHEN KING</h6>
+                <p class="card-text">
+                  Precio online: $5.600
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-success">Comprar ahora</button>
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-danger">Categoria</span></small></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <img src="./img/bici.jpg" class="card-img-top w-75 h-50" alt="Bicicleta">
+              <div class="card-body">
+                <h6 class="card-title">BICICLETA EXER C 292 RODADO 26</h6>
+                <p class="card-text">
+                  Precio online: $45.000
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-success">Comprar ahora</button>
+                </div></p>
+                <p class="card-text"><small class="text-muted"><span class="badge text-bg-danger">Categoria</span></small></p>
+                </div>
+              </div>
+            </div>
+        
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <img src="./img/gta.jpg" class="card-img-top w-75 h-50" alt="Videojuego">
+              <div class="card-body">
+                <h6 class="card-title">GTA V PREMIUM EDITION PS4</h6>
+                <p class="card-text">
+                  Precio online: $8.000
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-success">Comprar ahora</button>
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-danger">Categoria</span></small></p>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-lg-2">
+              <div class="card h-100">
+                <img src="./img/bolsonegro.jpg" class="card-img-top w-75 h-50" alt="Bolso matero">
+                <div class="card-body">
+                  <h6 class="card-title">BOLSO MATERO NORTHLAND TEA BAG</h6>
+              <p class="card-text">
+                  Precio online: $16.000
+                  <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                  <button type="button" class="btn btn-success">Comprar ahora</button>
+                </div></p>
+              <p class="card-text"><small class="text-muted"><span class="badge text-bg-danger">Categoria</span></small></p>
+                </div>
+              </div>
+          </div>
+        </div>            
+      </section>
+      <!---------------------------------------------------->
+      
+      <!-------------SECCION OFERTAS---------------------->
+      <section id="ofertas" class="col-md-11 mb-5">
+        <h4>Ofertas</h4>
+        <br>
+        <div class="card-group d-flex row justify-content-md-around container-fluid ">
+          <div class="col-lg-2">
+            <div class="card h-100">
+              <img src="./img/motorola.jpg" class="card-img-top w-75 h-50" alt="Motorola E40">
+              <div class="card-body">
+                <h6 class="card-title">CELULAR MOTOROLA E40 ROSADO</h6>
                 <p class="card-text">Precio contado:    <del>$42.000</del>
                   <br>
                   Precio online: $38.000
@@ -233,7 +383,7 @@
             <div class="card h-100">
               <img src="./img/Billy-Summers-Final.jpg" class="card-img-top h-50" alt="Stephen Kimg, Billy Summers">
               <div class="card-body">
-                <h5 class="card-title">BILLY SUMMERS, STEPHEN KING</h5>
+                <h6 class="card-title">BILLY SUMMERS, STEPHEN KING</h6>
                 <p class="card-text">Precio contado:    <del>$6.200</del>
                   <br>
                   Precio online: $5.600
@@ -249,7 +399,7 @@
             <div class="card h-100">
               <img src="./img/bici.jpg" class="card-img-top w-75 h-50" alt="Bicicleta">
               <div class="card-body">
-                <h5 class="card-title">BICICLETA EXER C 292 RODADO 26</h5>
+                <h6 class="card-title">BICICLETA EXER C 292 RODADO 26</h6>
                 <p class="card-text">Precio contado:    <del>$48.000</del>
                   <br>
                   Precio online: $45.000
@@ -265,7 +415,7 @@
             <div class="card h-100">
               <img src="./img/gta.jpg" class="card-img-top w-75 h-50" alt="Videojuego">
               <div class="card-body">
-                <h5 class="card-title">GTA V PREMIUM EDITION PS4</h5>
+                <h6 class="card-title">GTA V PREMIUM EDITION PS4</h6>
                 <p class="card-text">Precio contado:    <del>$8.899</del>
                   <br>
                   Precio online: $8.000
@@ -279,9 +429,9 @@
         
           <div class="col-lg-2">
               <div class="card h-100">
-                <img src="./img/bolsonegro.jpg" class="card-img-top" alt="Bolso matero">
+                <img src="./img/bolsonegro.jpg" class="card-img-top w-75 h-50z" alt="Bolso matero">
                 <div class="card-body">
-                  <h5 class="card-title">BOLSO MATERO NORTHLAND TEA BAG</h5>
+                  <h6 class="card-title">BOLSO MATERO NORTHLAND TEA BAG</h6>
               <p class="card-text">Precio contado:    <del>$20.000</del>
                   <br>
                   Precio online: $16.000
@@ -300,7 +450,7 @@
 
     <!-----------------FOOTER--------------------------------->
     <footer id="footer">
-      <nav class="navbar navbar-expand-lg eco-footer">
+      <nav class="navbar navbar-expand-lg">
         <nav class="navbar">
           <div>
             <a class="navbar-brand" href="#">E-commerce</a>
