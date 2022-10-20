@@ -9,19 +9,33 @@
 }
 
 body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+img {
+  object-fit: cover;
+  min-width: 100% !important;
+  max-width: 100vh !important;
+}
+
+body {
   background-color: var(--main-bg-color);
 }
 /*--------------------------------------------------------------*/
 
 /*--------NAVBAR-----------------------------*/
-svg { 
+svg {
   width: 20px;
   height: 40px;
-  color: white; 
+  color: white;
 }
-  
-.colorenlacebarra{
+
+.colorenlacebarra {
   color: white !important;
+}
+
+footer {
+  background-color: #dfdfdf;
 }
 
 /*-------------------------------------------*/
@@ -30,83 +44,73 @@ svg {
 
 /*----Presentación E-Commerce----*/
 
-.titulo {    
-  position:absolute;
-  top:60px;
+.titulo {
+  position: absolute;
+  top: 60px;
   z-index: 10;
-  margin:0 auto;
-  text-align: center;    
+  margin: 0 auto;
+  text-align: center;
 }
 .titulo h1 {
-  margin:0 auto;
-  padding:0 auto;
-  font-family: 'Comforter Brush', cursive;
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: "Comforter Brush", cursive;
   font-size: 8rem;
-  color:orange;
+  color: orange;
   text-shadow: yellow 5px 5px;
   text-align: center;
 }
 
-
 /*----Estilos Carrousel----*/
-
-.imagen-car {
-  max-height: 80vh;
-  background: no-repeat center center scroll;
-  background-size: cover;
-  background-position: center cover;
-}
 
 /*----Estilos Lemas comentarios----*/
 .caption {
-  text-align:center
+  text-align: center;
 }
 .lema-titulo {
-  color:black;
-  background:white;
-  opacity:0.6;
+  color: black;
+  background: white;
+  opacity: 0.6;
   max-width: max-content;
-  padding:10px 25px;
-  margin-bottom:10px;
+  padding: 10px 25px;
+  margin-bottom: 10px;
   border-radius: 10px;
-  border:yellow solid 2px;
+  border: yellow solid 2px;
   text-align: center;
 }
 .lema-comentario {
-  color:black;
-  background:white;
-  opacity:0.6;
+  color: black;
+  background: white;
+  opacity: 0.6;
   max-width: max-content;
-  padding:10px 15px;
+  padding: 10px 15px;
   border-radius: 10px;
-  border:yellow solid 2px;
+  border: yellow solid 2px;
 }
 
 @media only screen and (max-width: 680px) {
-    .titulo h1 {
-        font-size: 6rem;
-        text-shadow: yellow 4px 4px;
-    }
+  .titulo h1 {
+    font-size: 6rem;
+    text-shadow: yellow 4px 4px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
-    .titulo h1 {
-        font-size: 4rem;
-        text-shadow: yellow 3px 3px;
-    }
+  .titulo h1 {
+    font-size: 4rem;
+    text-shadow: yellow 3px 3px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .titulo h1 {
-      font-size: 3rem;
-      text-shadow: yellow 3px 3px;
+    font-size: 3rem;
+    text-shadow: yellow 3px 3px;
   }
   .titulo {
-    top:30px;      
+    top: 30px;
   }
 }
-
-
 
 /*-------------------------------------------*/
 
@@ -131,16 +135,9 @@ svg {
 
 /*-------------------------------------------*/
 
-
-
-
 /*---------SECCION NOVEDADES-----------------*/
 
-
-
 /*-------------------------------------------*/
-
-
 
 /*----------FOOTER---------------------------*/
 
@@ -148,8 +145,7 @@ svg {
   width: 100%;
   height: 91px;
   left: 0px;
-  background-color: #E9E9E9;
+  background-color: #e9e9e9;
 }
-
 
 /*-------------------------------------------*/
