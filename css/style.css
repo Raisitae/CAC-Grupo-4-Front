@@ -11,16 +11,15 @@
 body {
   width: 100vw;
   overflow-x: hidden;
+  background-color: var(--main-bg-color);
 }
+
 img {
   object-fit: cover;
   min-width: 100% !important;
   max-width: 100vh !important;
 }
 
-body {
-  background-color: var(--main-bg-color);
-}
 /*--------------------------------------------------------------*/
 
 /*--------NAVBAR-----------------------------*/
@@ -62,7 +61,9 @@ footer {
 }
 
 /*----Estilos Carrousel----*/
-
+.carousel-caption {
+  bottom: 39.25rem !important;
+}
 /*----Estilos Lemas comentarios----*/
 .caption {
   text-align: center;
