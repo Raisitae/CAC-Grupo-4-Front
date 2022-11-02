@@ -1,7 +1,9 @@
+
+body{
+    background:#c7c6c6;
+}
 .register {
     padding:5% 25%;
-    background:rgb(241, 177, 241);
-    height: max-content;
 }
 .cajilla {
     margin:0 auto
