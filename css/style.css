@@ -35,6 +35,7 @@ svg {
 
 footer {
   background-color: #dfdfdf;
+  width: 100vw; /*Rai*/
 }
 
 /*-------------------------------------------*/
