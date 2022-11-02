@@ -1,0 +1,31 @@
+.register {
+    padding:5% 25%;
+    background:rgb(241, 177, 241);
+    height: max-content;
+}
+.cajilla {
+    margin:0 auto
+}
+.boton-register {
+    text-align: center;
+    padding:0 auto;
+}
+#boton-registro {
+    width:50%;
+    margin:25px 25%
+}
+.titulin {
+    text-align: center;
+}
+.titulin h2 {    
+    font-family: 'Comforter Brush', cursive;
+    font-size: 4rem;
+    color:yellow
+}
+.titulin h3 { 
+    color:orangered
+}
+.regreso {
+    text-align: center;
+    margin-top:15px
+}
